@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html ng-app>
+<html>
   <head>
     <meta charset="utf-8">
     <title></title>
   </head>
-  <body>
-    <!--Comment-->
-    <h1>Hello {{1+4}}</h1>
+  <body ng-app>
+    <input type="text" ng-model="name" placeholder = "Emter your name">
+    <h1>Hello<span ng-bind = "name"></span></h1>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
   </body>
 </html>
